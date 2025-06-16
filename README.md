@@ -54,6 +54,18 @@ Este é um projeto em desenvolvimento e aberto para contribuições. Sinta-se à
 
 ---
 
+## Desenvolvido por
+
+**SixBro Corporation**
+
+- [ ] @franklin-samuel
+- [ ] @pedrohenrc  
+- [ ] @pedroromulo3  
+- [ ] Pedro Heitor
+- [ ] Wallysom
+- [ ] Pedro Aquino
 ## Contato
 
-Equipe RotaBus - samuelfranklinff@gmail.com - (84) 9 9921-6842
+SixBro Corporation - samuelfranklinff@gmail.com - (84) 9 9921-6842
+
+
