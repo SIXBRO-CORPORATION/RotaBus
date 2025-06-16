@@ -61,7 +61,7 @@ Este é um projeto em desenvolvimento e aberto para contribuições. Sinta-se à
 - [ ] @franklin-samuel
 - [ ] @pedrohenrc  
 - [ ] @pedroromulo3  
-- [ ] Pedro Heitor
+- [ ] @PedroHeitor12567
 - [ ] Wallysom
 - [ ] Pedro Aquino
 ## Contato
