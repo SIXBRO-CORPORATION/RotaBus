@@ -58,12 +58,13 @@ Este é um projeto em desenvolvimento e aberto para contribuições. Sinta-se à
 
 **SixBro Corporation**
 
-- [ ] @franklin-samuel
-- [ ] @pedrohenrc  
-- [ ] @pedroromulo3  
-- [ ] @PedroHeitor12567
-- [ ] Wallysom
-- [ ] Pedro Aquino
+- [@franklin-samuel](https://github.com/franklin-samuel)  
+- [@pedrohenrc](https://github.com/pedrohenrc)  
+- [@pedroromulo3](https://github.com/pedroromulo3)  
+- [@PedroHeitor12567](https://github.com/PedroHeitor12567)  
+- Wallysom  
+- Pedro Aquino
+
 ## Contato
 
 SixBro Corporation - samuelfranklinff@gmail.com - (84) 9 9921-6842
