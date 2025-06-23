@@ -62,7 +62,7 @@ Este é um projeto em desenvolvimento e aberto para contribuições. Sinta-se à
 - [@pedrohenrc](https://github.com/pedrohenrc)  
 - [@pedroromulo3](https://github.com/pedroromulo3)  
 - [@PedroHeitor12567](https://github.com/PedroHeitor12567)  
-- Wallysom  
+- [@Wallysom-fer](https://github.com/Wallysom-fer) 
 - Pedro Aquino
 
 ## Contato
