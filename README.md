@@ -48,9 +48,67 @@ O projeto está em fase inicial. A equipe já definiu a arquitetura, tecnologias
 
 ---
 
-## Como contribuir
+## Regras de Branch
 
-Este é um projeto em desenvolvimento e aberto para contribuições. Sinta-se à vontade para abrir issues e pull requests.
+### Estrutura de Branches
+
+1. **`main`**  
+   - Branch principal e protegida.  
+   - Somente *merge commits* aprovados via Pull Request (PR) vindos de develop são aceitos aqui.  
+   - Deve sempre refletir o código em produção.
+
+2. **`develop`**  
+   - Branch de integração onde todas as features são integradas antes do deploy.  
+   - Recebe PRs das branches de feature.  
+   - Pode ser atualizada diretamente apenas por membros da equipe com permissão.
+
+3. **Branches de Feature**  
+   - Sempre crie uma branch nova para cada feature, bugfix ou melhoria a partir da `develop`.  
+   - Nomeie a branch no formato: `feature/nome-descritivo` ou `bugfix/nome-descritivo`.  
+   - Exemplo: `feature/login-usuario`, `bugfix/corrigir-titulo`.
+
+---
+
+### Fluxo de Trabalho
+
+1. Crie a branch de feature a partir da branch `develop`:
+
+    ```bash
+    git checkout develop
+    git pull origin develop
+    git checkout -b feature/nome-da-feature
+    ```
+
+2. Faça commits claros e atômicos dentro da sua branch de feature.
+
+3. Antes de enviar o PR, mantenha sua branch atualizada com a `develop`:
+
+    ```bash
+    git checkout develop
+    git pull origin develop
+    git checkout feature/nome-da-feature
+    git rebase develop
+    ```
+
+4. Abra um Pull Request da sua branch de feature para a branch `develop`.  
+   - Descreva bem o que foi feito.  
+   - Marque revisores e aguarde aprovação.
+
+5. Após aprovação, faça o merge do PR na branch `develop`.
+
+6. Periodicamente, será integrado `develop` na `main` através de PRs, sempre respeitando a política de revisão e proteção.
+
+---
+
+### Regras de Commit
+
+- Use mensagens de commit claras e padronizadas, preferencialmente seguindo um padrão, como o [Conventional Commits](https://www.conventionalcommits.org/pt-br/). Exemplo:  
+  - `feat: adicionar funcionalidade de login`  
+  - `fix: corrigir erro na validação do formulário`  
+  - `docs: atualizar README com instruções de setup`
+  - `style: mudanças visuais`
+
+- Evite commits muito grandes; prefira commits pequenos que representem etapas lógicas.
 
 ---
 
